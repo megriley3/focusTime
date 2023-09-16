@@ -50,7 +50,7 @@ export const Timer = ({ focusSubject, clearSubject, onTimerEnd }) => {
         />
       </View>
       <View style={{ paddingTop: spacing.sm }}>
-        <Text style={styles.title}>Focusting On</Text>
+        <Text style={styles.title}>Focusing On</Text>
         <Text style={styles.task}>{focusSubject}</Text>
       </View>
       <View style={styles.timingWrapper}>
